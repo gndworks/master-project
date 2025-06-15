@@ -7,10 +7,10 @@
 
     <v-navigation-drawer app v-model="drawerOpen">
       <v-list>
-        <v-list-item link>
+        <v-list-item link to="/">
           <v-list-item-title>Home</v-list-item-title>
         </v-list-item>
-        <v-list-item link>
+        <v-list-item link to="/project1">
           <v-list-item-title>Project 1</v-list-item-title>
         </v-list-item>
       </v-list>
