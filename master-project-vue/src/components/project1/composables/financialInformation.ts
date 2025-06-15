@@ -1,9 +1,9 @@
-import { ref } from 'vue';
+import { ref, type Ref } from 'vue';
+
+  const yearlyIncome: Ref<number | undefined> = ref(undefined);
+  const currentSavings: Ref<number | undefined> = ref(undefined);
 
 export function useFinancialInformation() {
-  const yearlyIncome = ref(undefined);
-  const currentSavings = ref(undefined);
-
   return {
     yearlyIncome,
     currentSavings,
