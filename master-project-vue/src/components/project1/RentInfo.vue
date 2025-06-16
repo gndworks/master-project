@@ -1,17 +1,17 @@
 <template>
   <v-form>
     <v-text-field
-      label="Yearly Income"
+      label="Weekly Rental Price"
       v-model="weeklyRentalPrice"
       type="number"
       prepend-icon="mdi-currency-usd"
       required
     ></v-text-field>
     <v-text-field
-      label="Current Savings"
+      label="Yearly Rent Increase"
       v-model="yearlyRentIncrease"
       type="number"
-      prepend-icon="mdi-bank"
+      prepend-icon="mdi-trending-up"
       required
     ></v-text-field>
   </v-form>
